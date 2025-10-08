@@ -33,7 +33,7 @@ Sinta-se à vontade para contribuir ou sugerir melhorias!
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/todo-list.git
+    git clone https://github.com/PauloNantet/todo-list-simples.git
     ```
 2. Abra o arquivo `index.html` em seu navegador.
 3. Adicione, edite, remova e marque tarefas conforme necessário pela interface.
