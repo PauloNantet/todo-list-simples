@@ -1,0 +1,128 @@
+{
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "order/properties-order": [
+      {
+        "groupName": "📌 Posicionamento",
+        "properties": [
+          "position",
+          "top", "right", "bottom", "left",
+          "z-index",
+          "inset", "inset-block", "inset-inline",
+          "place-content", "place-items", "place-self"
+        ]
+      },
+      {
+        "groupName": "📦 Modelo de Caixa (Box Model)",
+        "properties": [
+          "display",
+          "flex", "flex-basis", "flex-direction", "flex-flow", "flex-grow", "flex-shrink", "flex-wrap",
+          "grid", "grid-area", "grid-auto-columns", "grid-auto-flow", "grid-auto-rows", "grid-column", "grid-column-end", "grid-column-gap", "grid-column-start", "grid-gap", "grid-row", "grid-row-end", "grid-row-gap", "grid-row-start", "grid-template", "grid-template-areas", "grid-template-columns", "grid-template-rows",
+          "gap", "row-gap", "column-gap",
+          "float",
+          "clear",
+          "width", "min-width", "max-width",
+          "height", "min-height", "max-height",
+          "aspect-ratio",
+          "margin", "margin-top", "margin-right", "margin-bottom", "margin-left",
+          "padding", "padding-top", "padding-right", "padding-bottom", "padding-left",
+          "border", "border-top", "border-right", "border-bottom", "border-left",
+          "border-width", "border-top-width", "border-right-width", "border-bottom-width", "border-left-width",
+          "border-style", "border-top-style", "border-right-style", "border-bottom-style", "border-left-style",
+          "border-color", "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+          "border-radius", "border-top-left-radius", "border-top-right-radius", "border-bottom-right-radius", "border-bottom-left-radius",
+          "border-collapse", "border-spacing",
+          "box-sizing"
+        ]
+      },
+      {
+        "groupName": "✏️ Tipografia",
+        "properties": [
+          "font", "font-family", "font-size", "font-weight", "font-style", "font-variant", "font-stretch",
+          "font-size-adjust", "font-kerning", "font-feature-settings", "font-language-override", "font-optical-sizing", "font-variation-settings",
+          "line-height",
+          "letter-spacing",
+          "text-align", "text-align-last",
+          "text-justify",
+          "vertical-align",
+          "white-space",
+          "text-decoration", "text-decoration-line", "text-decoration-style", "text-decoration-color", "text-decoration-thickness", "text-underline-offset",
+          "text-transform",
+          "text-indent",
+          "text-shadow",
+          "color",
+          "hyphens",
+          "word-break", "word-spacing", "word-wrap", "overflow-wrap",
+          "tab-size",
+          "writing-mode",
+          "text-orientation",
+          "direction", "unicode-bidi"
+        ]
+      },
+      {
+        "groupName": "🎨 Background & Decoração Visual",
+        "properties": [
+          "background", "background-color", "background-image", "background-position", "background-size", "background-repeat", "background-attachment", "background-origin", "background-clip",
+          "box-shadow",
+          "outline", "outline-width", "outline-style", "outline-color", "outline-offset",
+          "opacity",
+          "visibility",
+          "backdrop-filter",
+          "filter",
+          "clip-path",
+          "mask", "mask-image", "mask-mode", "mask-repeat", "mask-position", "mask-clip", "mask-origin", "mask-size", "mask-composite"
+        ]
+      },
+      {
+        "groupName": "🌀 Transições, Transformações & Animações",
+        "properties": [
+          "transform", "transform-origin", "transform-box", "transform-style", "perspective", "perspective-origin", "backface-visibility",
+          "transition", "transition-property", "transition-duration", "transition-timing-function", "transition-delay",
+          "animation", "animation-name", "animation-duration", "animation-timing-function", "animation-delay", "animation-iteration-count", "animation-direction", "animation-fill-mode", "animation-play-state",
+          "will-change",
+          "scroll-behavior"
+        ]
+      },
+      {
+        "groupName": "🖱️ Interação & Acessibilidade",
+        "properties": [
+          "cursor",
+          "pointer-events",
+          "user-select",
+          "resize",
+          "appearance",
+          "caret-color",
+          "scrollbar-width", "scrollbar-color",
+          "touch-action"
+        ]
+      },
+      {
+        "groupName": "🧩 Layout & Comportamento",
+        "properties": [
+          "overflow", "overflow-x", "overflow-y",
+          "overscroll-behavior", "overscroll-behavior-x", "overscroll-behavior-y",
+          "object-fit", "object-position",
+          "isolation",
+          "contain",
+          "content-visibility"
+        ]
+      },
+      {
+        "groupName": "⚙️ Variáveis CSS (Custom Properties)",
+        "properties": [
+          "/^--/"
+        ]
+      },
+      {
+        "groupName": "❓ Outros / Não Categorizados",
+        "properties": [
+          "*"
+        ]
+      }
+    ],
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ]
+  }
+}
